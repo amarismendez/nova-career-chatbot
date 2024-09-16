@@ -1,4 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+        <pattern>software engineer</pattern>
+        <template>A software engineer designs, develops, and maintains software applications or systems to meet user needs and solve problems.
+            <br></br> <br></br>
+            Top 3 skills: programming, problem solving, version control
+            <br></br> <br></br>
+            Average salary: $115,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about Software Engineers.</text>
+                <url>https://www.coursera.org/articles/software-engineer</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>software engineer match</pattern>
+        <template>We think you may make a great Software Engineer!
+            <br></br><br></br>
+            A software engineer designs, develops, and maintains software applications or systems to meet user needs and solve problems.
+            <br></br> <br></br>
+            Top 3 skills: programming, problem solving, version control
+            <br></br> <br></br>
+            Average salary: $115,000
+            <link>
+                <text>Click to learn about Software Engineers.</text>
+                <url>https://www.coursera.org/articles/software-engineer</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
 </aiml>

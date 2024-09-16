@@ -1,4 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+    <category>
+        <pattern>start</pattern>
+        <template>Hi! I'm Nova, the career guidance bot for the Computer Science Department. Please select from the options below: 
+            <button>
+                <text>Learn about the top CS careers</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Take the Career Match Quiz</text>
+                <postback>career quiz</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>career list</pattern>
+        <template>Here are five careers that require a Computer Science degree:
+            <button>
+                <text>Software Engineer</text>
+                <postback>software engineer</postback>
+            </button>
+            <button>
+                <text>Data Scientist</text>
+                <postback>data scientist</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>cybersecurity analyst</postback>
+            </button>
+            <button>
+                <text>UX Designer</text>
+                <postback>ux designer</postback>
+            </button>
+            <button>
+                <text>Game Developer</text>
+                <postback>game developer</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>career quiz</pattern>
+        <template>Welcome to the Career Quiz.
+        <br></br><br></br>
+        We will ask questions to identify your strengths and match you with a potential career.
+        <br></br><br></br>
+        Are you more analytical or creative?
+            <button>
+                <text>analytical</text>
+                <postback>analytical path 1</postback>
+            </button>
+            <button>
+                <text>creative</text>
+                <postback>creative path 1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>analytical path 1</pattern>
+        <template> Are you interested in protecting computers from potential threats and attacks?
+            <button>
+                <text>yes</text>
+                <postback>cybersecurity analyst match</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>analytical path 2</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>analytical path 2</pattern>
+        <template> Would you prefer creating software for users, or working with large data sets to find trends?
+            <button>
+                <text>creating software</text>
+                <postback>software engineer match</postback>
+            </button>
+            <button>
+                <text>working with data</text>
+                <postback>data scientist match</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>creative path 1</pattern>
+        <template> Which of these would you prefer to do in your free time: design something new, or play a video game?
+            <button>
+                <text>design something new</text>
+                <postback>ux designer match</postback>
+            </button>
+            <button>
+                <text>play a video game</text>
+                <postback>game developer match</postback>
+            </button>
+        </template>
+    </category>
 </aiml>

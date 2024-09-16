@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+        <pattern>game developer</pattern>
+        <template>A game developer designs, creates, and programs video games, focusing on gameplay, graphics, and user experience.
+            <br></br> <br></br>
+            Top 3 skills: programming, 3d modeling/animation, creativity
+            <br></br> <br></br>
+            Average salary: $85,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about Game Developers.</text>
+                <url>https://www.coursera.org/articles/game-developer</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>game developer match</pattern>
+        <template>We think you may make a great Game Developer!
+            <br></br><br></br>
+            A game developer designs, creates, and programs video games, focusing on gameplay, graphics, and user experience.
+            <br></br> <br></br>
+            Top 3 skills: programming, 3d modeling/animation, creativity
+            <br></br> <br></br>
+            Average salary: $85,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about Game Developers.</text>
+                <url>https://www.coursera.org/articles/game-developer</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
 </aiml>

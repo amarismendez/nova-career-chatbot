@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+        <pattern>data scientist</pattern>
+        <template>A data scientist analyzes and interprets complex data to help organizations make informed decisions and solve business problems.
+            <br></br> <br></br>
+            Top 3 skills: data analysis, statistical techniques, presentation/communication
+            <br></br> <br></br>
+            Average salary: $120,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about Data Scientists.</text>
+                <url>https://www.coursera.org/articles/what-is-a-data-scientist</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>data scientist match</pattern>
+        <template>We think you may make a great Data Scientist!
+            <br></br><br></br>
+            A data scientist analyzes and interprets complex data to help organizations make informed decisions and solve business problems.
+            <br></br> <br></br>
+            Top 3 skills: data analysis, statistical techniques, presentation/communication
+            <br></br> <br></br>
+            Average salary: $120,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about Data Scientists.</text>
+                <url>https://www.coursera.org/articles/what-is-a-data-scientist</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
 </aiml>

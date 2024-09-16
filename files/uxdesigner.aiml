@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+        <pattern>ux designer</pattern>
+        <template>A UX designer improves the overall user experience by designing intuitive and engaging interfaces for digital products, based on user research and feedback.
+            <br></br> <br></br>
+            Top 3 skills: user research, wireframing, visual design
+            <br></br> <br></br>
+            Average salary: $95,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about UX Designers.</text>
+                <url>https://www.coursera.org/articles/what-does-a-ux-designer-do#</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>ux designer match</pattern>
+        <template>We think you may make a great UX Designer!
+            <br></br><br></br>
+            A UX designer improves the overall user experience by designing intuitive and engaging interfaces for digital products, based on user research and feedback.
+            <br></br> <br></br>
+            Top 3 skills: user research, wireframing, visual design
+            <br></br> <br></br>
+            Average salary: $95,000
+            <br></br> <br></br>
+            <link>
+                <text>Click to learn about UX Designers.</text>
+                <url>https://www.coursera.org/articles/what-does-a-ux-designer-do#</url>
+            </link>
+            <button>
+                <text>Click to see other careers.</text>
+                <postback>career list</postback>
+            </button>
+            <button>
+                <text>Click to take our Career Match quiz.</text>
+                <postback>career quiz</postback>
+            </button>
+        </template>
+    </category>
 </aiml>
